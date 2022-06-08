@@ -1,0 +1,43 @@
+11/03/22
+
+* Shell Scripting :-
+
+- Shell is interface between user and computer.
+   We can run commands, progs and shell scripts.
+
+- In Unix, there are two major types of shells -
+
+1. Bourne shell - If you are using a Bourne-type shell, the $ character is the default prompt.
+
+2. C shell - If you are using a C-type shell, the % character is the default prompt.
+
+-  Bash is extended version of  "Bourne Shel".
+
+- Location fr bourne shell -> /bin/sh
+
+* What is Shell Script?
+It is list of commands
+
+-Extenssion for shell script -> .sh
+
+- To let know the system that shell scripting is being started by putting shebang (#!) and after that add location of bash file; to check locn -> where bash.
+
+- To make comment is shell script use #.
+
+-To execute script file -> ./file_name.sh
+
+
+* Control Structure :- (http://litux.nl/Reference/books/7213/ddu0071.html#:~:text=You%20can%20control%20the%20execution,then%20the%20commands%20are%20executed.)
+
+You can control the execution of Linux commands in a shell script with control structures. Control structures allow you to repeat commands and to select certain commands over others. A control structure consists of two major components: a test and commands. If the test is successful, then the commands are executed. In this way, you can use control structures to make decisions as to whether commands should be executed.
+
+There are two different kinds of control structures: loops and conditions. A loop repeats commands, whereas a condition executes a command when certain conditions are met. The BASH shell has three loop control structures: while, for, and for-in. There are two condition structures: if and case. The control structures have as their test the execution of a Linux command. All Linux commands return an exit status after they have finished executing. If a command is successful, its exit status will be 0. If the command fails for any reason, its exit status will be a positive value referencing the type of failure that occurred. The control structures check to see if the exit status of a Linux command is 0 or some other value. In the case of the if and while structures, if the exit status is a zero value, then the command was successful and the structure continues.
+
+(Simply it means loops and condions , it is still just a list of commands executed sequentially.)
+
+- To take input and assign it to variable -> read.
+
+- To display o/p containig that var, use -> $variable_name             Rules for writing variables are just same as other programming lang.
+
+-  Take input from user -> read
+
